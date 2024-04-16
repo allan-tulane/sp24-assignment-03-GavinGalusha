@@ -10,3 +10,6 @@ def test_align():
         align_S, align_T = fast_align_MED(S, T)
         assert (align_S == alignments[i][0] and align_T == alignments[i][1])
 
+
+print(test_MED())
+print(test_align())
