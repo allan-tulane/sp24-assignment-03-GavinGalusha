@@ -12,4 +12,5 @@ def test_align():
 
 
 print(test_MED())
+
 print(test_align())
