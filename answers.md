@@ -22,8 +22,9 @@ The optimal greedy choice for any N is to select 2^k where k is the highest inte
 
 
 def CoinChangeRecursive(N, denominations):
-	memo = [-1] * (N + 1)
-	memo[0] = 0
+
+memo = [-1] * (N + 1)
+memo[0] = 0
 
 	def FindMinCoins(amount):
 		if memo[amount] >= 0:
